@@ -1,5 +1,5 @@
 // ===================================================================
-// Milesight gateway built-in NS codec - MacSync_LBD_STD_X1 RS485 / ANALOG node
+// Milesight gateway built-in NS codec - MacSync_LBS_STD_X1 RS485 / ANALOG node
 // Milesight (UG63/UG65/UG67) embedded NS is ChirpStack v3 based:
 //   decoder box entry point : Decode(fPort, bytes)   (wrapper at end of file)
 //   encoder box entry point : Encode(fPort, obj)     (wrapper at end of file)

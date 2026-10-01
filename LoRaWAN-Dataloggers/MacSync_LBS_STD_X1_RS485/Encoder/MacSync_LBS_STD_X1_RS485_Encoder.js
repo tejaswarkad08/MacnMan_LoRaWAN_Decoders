@@ -1,5 +1,5 @@
 // ===================================================================
-// MacSync_LBD_STD_X1 RS485 / ANALOG node - standalone DOWNLINK ENCODER
+// MacSync_LBS_STD_X1 RS485 / ANALOG node - standalone DOWNLINK ENCODER
 // Same JSON keys as the codec files; see the .md for the command table.
 // DOWNLINK ENCODER  (JSON -> bytes; set "port" in the JSON = FPort field)
 //   Modbus:

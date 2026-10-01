@@ -1,5 +1,5 @@
 // ===================================================================
-// ChirpStack v4 Codec - MacSync_LBD_STD_X1 RS485 / ANALOG node
+// ChirpStack v4 Codec - MacSync_LBS_STD_X1 RS485 / ANALOG node
 // UPLINK ports: 0x02 heartbeat (RS485 or analog), 0x03 sampling,
 //               0x04 trigger, 0x05 boot, 0x10-0x15 config-ACK,
 //               8/9/10/12/13/15 RS485/Modbus downlink replies

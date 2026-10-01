@@ -10,7 +10,7 @@ JavaScript payload **decoders** (uplink: bytes → JSON) and **encoders** (downl
 
 | Device | Description | Codec |
 |--------|-------------|-------|
-| [MacSync_LBD_STD_X1_RS485](LoRaWAN-Dataloggers/MacSync_LBD_STD_X1_RS485) | RS485 (Modbus RTU) & Analog to LoRaWAN® datalogger (MacSync LX1 family) | Decoder + Encoder |
+| [MacSync_LBS_STD_X1_RS485](LoRaWAN-Dataloggers/MacSync_LBS_STD_X1_RS485) | RS485 (Modbus RTU) & Analog to LoRaWAN® datalogger (MacSync LX1 family) | Decoder + Encoder |
 | [MacSync-LBS-TH-X1](LoRaWAN-Sensors/MacSync-LBS-TH-X1) | Temperature & humidity sensor (SHT40) | Decoder + Encoder |
 
 ---

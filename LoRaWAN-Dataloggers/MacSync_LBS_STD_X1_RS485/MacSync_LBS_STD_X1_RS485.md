@@ -1,7 +1,7 @@
-# 📡 MacSync_LBD_STD_X1_RS485 LoRaWAN Codec Documentation
+# 📡 MacSync_LBS_STD_X1_RS485 LoRaWAN Codec Documentation
 
 ## 📘 Overview
-**MacSync_LBD_STD_X1_RS485** is an **RS485 (Modbus RTU) & Analog to LoRaWAN® Datalogger** from the MacSync LX1 family. It wirelessly connects Modbus RTU devices (energy meters, PLCs, flow meters, transmitters) and analog instruments (4–20 mA / 0–10 V / digital inputs) to LoRaWAN® networks. See the [product page](https://macnman.com/docs/product/lorawan/dataloggers/rs485-analog-to-lorawan-converter-macsync-lx1) for hardware details.
+**MacSync_LBS_STD_X1_RS485** is an **RS485 (Modbus RTU) & Analog to LoRaWAN® Datalogger** from the MacSync LX1 family. It wirelessly connects Modbus RTU devices (energy meters, PLCs, flow meters, transmitters) and analog instruments (4–20 mA / 0–10 V / digital inputs) to LoRaWAN® networks. See the [product page](https://macnman.com/docs/product/lorawan/dataloggers/rs485-analog-to-lorawan-converter-macsync-lx1) for hardware details.
 
 This folder provides JavaScript-based **decoder** (uplink) and **encoder** (downlink) scripts compatible with TTN, ChirpStack, and Milesight LNS.
 
@@ -12,17 +12,17 @@ This folder provides JavaScript-based **decoder** (uplink) and **encoder** (down
 ## 📂 Repository Structure
 
 ```
-MacSync_LBD_STD_X1_RS485/
+MacSync_LBS_STD_X1_RS485/
 │
 ├── Decoder/
-│   ├── MacSync_LBD_STD_X1_RS485_TTN.js         (decodeUplink / encodeDownlink)
-│   ├── MacSync_LBD_STD_X1_RS485_Chirpstack.js  (ChirpStack v4 + v3-compat Decode)
-│   ├── MacSync_LBD_STD_X1_RS485_Milesight.js   (v3 style: Decode / Encode)
+│   ├── MacSync_LBS_STD_X1_RS485_TTN.js         (decodeUplink / encodeDownlink)
+│   ├── MacSync_LBS_STD_X1_RS485_Chirpstack.js  (ChirpStack v4 + v3-compat Decode)
+│   ├── MacSync_LBS_STD_X1_RS485_Milesight.js   (v3 style: Decode / Encode)
 │
 ├── Encoder/
-│   ├── MacSync_LBD_STD_X1_RS485_Encoder.js     (standalone encodeDownlink)
+│   ├── MacSync_LBS_STD_X1_RS485_Encoder.js     (standalone encodeDownlink)
 │
-└── MacSync_LBD_STD_X1_RS485.md
+└── MacSync_LBS_STD_X1_RS485.md
 ```
 
 ---
